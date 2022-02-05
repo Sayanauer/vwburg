@@ -211,7 +211,7 @@ ul {
 .container-slider {
   
   width: 100%;
-  max-width: 1360px;
+ /* max-width: 1360px;*/
   overflow: hidden;
   position: relative;
 }
@@ -222,7 +222,7 @@ ul {
   background: #2c3e50; /* darckblue */
 }
 .myslide {
-  height: 500px;
+  height:500px;
   display: none;
   overflow: hidden;
 }
@@ -1176,7 +1176,9 @@ border-top: 1px solid;
 	.sign a{
 		font-size: 12px;
 	}
-  
+  .banner-title{
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px){
@@ -1186,3 +1188,10 @@ border-top: 1px solid;
     height: 195px;
   }
 }
+
+@media (max-width: 2560){
+  .myslide{
+    height: 750px;
+  }
+}
+
