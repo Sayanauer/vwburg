@@ -472,6 +472,7 @@ ul {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select {
   border: none;
   border-bottom: thin solid #111;
@@ -680,7 +681,8 @@ a {
   padding: 20px 0;
   font-size: 15px;
 }
-.form-banner input[type="text"] {
+.form-banner input[type="text"], 
+  .form-banner input[type="tel"]{
   color: #ffffff;
   border-color: #fff;
 }
@@ -852,9 +854,7 @@ border-top: 1px solid;
 /* responsive */
 
 @media (max-width: 991px) {
-  .container-slider{
-    margin-top: 54px;
-  }
+ 
   .header .menu-overlay.active {
     visibility: visible;
     opacity: 1;

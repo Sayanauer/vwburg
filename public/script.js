@@ -4,8 +4,8 @@ const form2 = document.querySelector('.form-info');
 
 
 
-
-form.addEventListener("submit", e => {
+if (form !=null){
+  form.addEventListener("submit", e => {
   e.preventDefault();
   fetch(form.action, {
       method : "POST",
@@ -14,6 +14,8 @@ form.addEventListener("submit", e => {
   alert('Sus datos fueron enviados, en breve un asesor se comunicará con usted')
   form.reset()
 }); 
+}
+
 
 
 form2.addEventListener("submit", e => {
