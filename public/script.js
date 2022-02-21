@@ -17,8 +17,8 @@ if (form !=null){
 }
 
 
-
-form2.addEventListener("submit", e => {
+if(form2 !=null){
+  form2.addEventListener("submit", e => {
   e.preventDefault();
   fetch(form2.action, {
       method : "POST",
@@ -28,4 +28,6 @@ form2.addEventListener("submit", e => {
   alert('Sus datos fueron enviados, en breve un asesor se comunicará con usted')
   form2.reset()
 });
+
+}
 
