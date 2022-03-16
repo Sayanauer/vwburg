@@ -1232,3 +1232,197 @@ border-top: 1px solid;
     background-position: 70% 5%;
   }
 }
+
+@media (max-width: 750px) {
+  .parallax {
+    background-position: 20% 20%;
+  }
+  .container-750 {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  .info-modelo {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .info-modelo .description-text {
+    width: 540px;
+    padding-left: 0;
+  }
+  .info-modelo.reverse {
+    flex-direction: column-reverse;
+  }
+  .model-img {
+    padding-top: 10px;
+    max-width: 600px;
+    height: 300px;
+  }
+  .model-min-width{
+    padding-top: 10px;
+    max-width: 600px;
+    height: 300px;
+  }
+  .modelo-precio{
+    font-size: 40px;
+  }
+  .modelo-cuota{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-modelo .description-text {
+    width: 100%;
+    padding: 10px;
+  }
+  .info-modelo.reverse {
+    flex-direction: column-reverse;
+  }
+  .model-img {
+    padding-top: 10px;
+    max-width: 100%;
+    height: 250px;
+  }
+  .model-min-width{
+    padding-top: 10px;
+    max-width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .parallax {
+    background-position: 25% 10%;
+  }
+  .model-img{
+    max-width: 430px;
+    min-width:430px ;
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 800px){
+	.slider-img{
+		object-position:30% ;
+		max-width: 800px;
+	}
+	.txt{
+		margin-left: 40px ;
+		width: 50%;
+		letter-spacing: 2px;
+		line-height: 25px;
+		top: 80%;
+		left: 40%;
+		transform: translate(-50%, -50%);
+		-webkit-animation-name: posi2;
+		-webkit-animation-duration: 2s;
+		animation-name: posi2;
+		animation-duration: 2s;
+	}
+
+	@-webkit-keyframes posi2 {
+    from {top: 35%;}
+    to {top: 80%;}
+	}
+
+
+	@keyframes posi2 {
+    from {top: 35%;}
+    to {top: 80%;}
+	}
+
+	.txt h3{
+		
+		padding: 0;
+		font-size: 40px;
+	}
+	.txt p{
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 520px){
+	.txt{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.slider-img{
+		object-position:30% ;
+		max-width: 520px;
+	}
+	.txt h3{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.txt p{
+		font-size: 20px;
+	}
+	.sign{
+		margin-right: 20px;
+	}
+	.sign a{
+		font-size: 12px;
+	}
+  .banner-title{
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px){
+  .txt{
+    padding: 0 10px;
+  }
+  .model-img{
+    width: 100%;
+    
+    padding:0 10px;
+    
+  }
+  .info-modelo{
+    padding: 0;
+    width: 100%;
+  }
+  .info-modelo .description-text, .info-modelo.reverse .description-text{
+    padding:  10px  ;
+    margin: 0;
+    width: 100%;
+  }
+  .section-modelo{
+    padding: 0;
+  }
+}
+
+@media (max-width: 2560){
+  .myslide{
+    height: 750px;
+  }
+}
+
+@media (max-width: 300px){
+  .info-modelo{
+    width: 100%;
+  }
+  .info-modelo .description-text , .info-modelo.reverse .description-text{
+    padding: 10px;
+    width: 100%;
+   
+  }
+  .model-img{
+    width: 100%;
+    
+    padding:0 10px;
+    
+  }
+
+  .parallax {
+    width: 100%;
+    background-position: 70% 5%;
+  }
+}

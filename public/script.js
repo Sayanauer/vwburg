@@ -1,6 +1,6 @@
 const form = document.querySelector('.data-info');
 const form2 = document.querySelector('.form-info');
-//const form2 = document.getElementById('asd');
+
 
 
 
